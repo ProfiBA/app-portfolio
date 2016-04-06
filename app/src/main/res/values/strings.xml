@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Vanja Portfolio</string>
+    <string name="app_owner">Vanja Petrović</string>
+    <string name="app_owner_email">vanja@vanjapetrovic.com</string>
+    <string name="title_activity_main">App portfolio</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="drawer_nanodegree">Nanodegree apps</string>
+    <string name="drawer_apps">My mobile apps</string>
+    <string name="drawer_other">Other</string>
+    <string name="drawer_credit">Credits</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="alert_title">Message from app</string>
+    <string name="alert_message">Welcome to my demo app, its still under construction so check it out frequently for updates.</string>
+    <string name="toast_message">Not yet implemented!</string>
+
+    <string name="app_one">Spotify Streamer</string>
+    <string name="app_two">Football Scores</string>
+    <string name="app_three">Library App</string>
+    <string name="app_four">Build It Bigger</string>
+    <string name="app_five">XYZ Reader</string>
+    <string name="app_six">Capstone </string>
+    <string name="toast_app_click">Coming soon</string>
+</resources>

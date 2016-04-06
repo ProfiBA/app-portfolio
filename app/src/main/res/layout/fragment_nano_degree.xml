@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.vanjapetrovic.portfolio.app.fragments.NanoDegree">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/llNanoDegreeApps"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_one"
+            android:id="@+id/btnAppOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_two"
+            android:id="@+id/btnAppTwo"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_three"
+            android:id="@+id/btnAppThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_four"
+            android:id="@+id/btnAppFour"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_five"
+            android:id="@+id/btnAppFive"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_six"
+            android:id="@+id/btnAppSix"
+            android:layout_weight="0.09"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+</FrameLayout>

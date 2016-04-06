@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nanodegree"
+            android:icon="@drawable/ic_menu_nanodegree"
+            android:title="@string/drawer_nanodegree" />
+        <item
+            android:id="@+id/nav_myapps"
+            android:icon="@drawable/ic_menu_android"
+            android:title="@string/drawer_apps" />
+    </group>
+
+    <item android:title="@string/drawer_other">
+        <menu>
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_menu_credits"
+                android:title="@string/drawer_credit" />
+        </menu>
+    </item>
+
+</menu>
